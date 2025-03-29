@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-londrina_shadow: var(--font-londrina_shadow);
+  --font-gochi_hand: var(--font-gochi_hand);
+}
+
+
+::selection {
+  color: transparent;
+  text-shadow: 0 0 3px #000;
+}
