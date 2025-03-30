@@ -1,5 +1,5 @@
 const eyes = [
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-1" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_19)">
       <path d="M51.1989 68.6295C51.1989 57.838 73.0604 57.8567 80.1659 57.8567C84.6617 57.8567 88.7613 57.9316 92.1357 61.1284C94.3658 63.2411 95.6687 68.3708 98.5995 69.3477" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -17,7 +17,7 @@ const eyes = [
     </defs>
   </svg>,
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-2" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_83)">
       <path d="M52.8737 66.7568C46.8901 66.7568 55.6683 71.8779 56.4247 69.2305C57.6616 64.9014 53.887 62.6345 51.7964 66.3977C49.5641 70.4159 55.4181 71.8047 57.0232 68.1931C58.9476 63.8632 52.1555 62.9431 52.1555 66.7568" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -30,7 +30,7 @@ const eyes = [
     </defs>
   </svg>,
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-3" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_89)">
       <path d="M50.8985 62.0399C50.8985 59.6025 56.1607 56.5633 58.0951 55.983C63.9158 54.2368 69.8387 54.0625 75.8861 54.0625C78.3382 54.0625 80.4945 55.2947 82.8294 55.9618C84.2822 56.3769 87.2515 56.6975 88.3377 57.8823C90.2963 60.0191 92.7692 61.6701 94.5846 63.9393" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -51,7 +51,7 @@ const eyes = [
     </defs>
   </svg>,
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-4" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_95)">
       <path d="M49.3321 70.0106H63.7205" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -65,7 +65,7 @@ const eyes = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-5" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_167)">
       <path d="M65.2228 63.3787C62.2647 63.3787 61.7755 65.5713 62.1452 68.1593C62.3912 69.8816 66.4065 70.3306 66.6289 68.4405C66.8311 66.7217 67.6627 64.1644 64.801 64.8004C62.5155 65.3083 61.8483 66.8396 61.8483 69.0029" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -79,7 +79,7 @@ const eyes = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-6" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_178)">
       <path d="M61.717 60.5281C60.1731 60.5281 54.6041 58.812 54.0827 61.6795C53.7004 63.7822 54.2188 65.5737 56.0851 66.6106C57.858 67.5955 59.7631 67.6384 61.4667 68.4128C62.6631 68.9566 64.4203 68.1291 64.4203 69.9897C64.4203 70.7555 64.8708 74.0061 63.8697 74.0447C60.7269 74.1655 48.2005 76.0147 48.2005 70.8908" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -95,7 +95,7 @@ const eyes = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-7" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_190)">
       <path d="M56.5 72.5C57.4697 73.6704 60.1526 74.5 61.7105 74.5C62.8614 71.0474 67.1392 66.5255 67.1392 62.7345C67.1392 61.2363 66.8807 57.9179 65 57.5C63.3623 57.1361 60.4775 58.048 60.097 60.1408C59.991 60.7239 60.097 60.1408 59.4787 61.7091C59.4787 61.7091 59.5302 64.0343 59.4787 64C59.1197 63.7606 58.0444 62.5147 57.6993 62.1313C57.3056 61.6938 51.0776 58.7441 51 60.1408C47.5 66 51.6235 67.6999 53 69.5C53.9662 70.7635 55.5198 71.317 56.5 72.5Z" fill="#3c3c3c" stroke="#3c3c3c" strokeLinecap="round" />
@@ -109,7 +109,7 @@ const eyes = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-8" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_216)">
       <path d="M60.0036 64.9837C57.4774 64.703 56.554 64.4356 56.7358 67.5253C56.8421 69.3327 61.2807 68.7149 62.3233 68.2515C64.3149 67.3663 62.9912 64.8281 61.6374 64.076C60.1357 63.2417 56.7449 63.9081 58.1881 66.073" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -125,7 +125,7 @@ const eyes = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-9" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_229)">
       <path d="M60.0036 64.9837C57.4774 64.703 56.554 64.4356 56.7358 67.5253C56.8421 69.3327 61.2807 68.7149 62.3233 68.2515C64.3149 67.3663 62.9912 64.8281 61.6374 64.076C60.1357 63.2417 56.7449 63.9081 58.1881 66.073" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -140,7 +140,7 @@ const eyes = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-10" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_240)">
       <path d="M48.792 59.8494C53.212 59.8494 54.5922 64.1611 58.2952 65.4942C61.4432 66.6274 64.4269 67.9884 67.4412 69.4955" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -154,7 +154,7 @@ const eyes = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="eye-11" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_252)">
       <path d="M45.7421 70.8591C45.7421 66.9803 49.1799 64.9058 51.2685 62.2203C53.4093 59.4679 54.8822 59.4704 57.7258 61.9585C60.8631 64.7037 64.8268 66.9071 67.7316 69.812" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />

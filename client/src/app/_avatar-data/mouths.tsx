@@ -1,5 +1,5 @@
 const mouths = [
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-1" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_31)">
       <path d="M56.7623 99.1207H92.4574" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -12,7 +12,7 @@ const mouths = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-2" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_119)">
       <path d="M49.2546 99.8072C50.1276 99.9163 50.9977 101.185 51.4665 101.866C52.2659 103.029 55.8563 104.231 57.3394 104.765C64.0747 107.189 70.9198 106.672 78.0471 106.672C86.7584 106.672 104.857 109.604 104.857 96.3749" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -25,7 +25,7 @@ const mouths = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-3" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_125)">
       <path d="M49.9843 104.612C49.9843 98.6275 54.8511 94.9404 58.5649 91.2266C61.9712 87.8203 71.7584 89.389 76.3743 89.5105C81.5321 89.6462 90.1422 91.3424 93.2684 96.0317C94.3742 97.6904 95.7351 99.2522 96.9676 100.837C98.214 102.439 98.1051 104.821 98.7219 106.672" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -38,7 +38,7 @@ const mouths = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-4" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_131)">
       <path d="M53.4598 109.417C53.568 108.552 56.2447 106.077 56.892 105.337C58.7965 103.16 60.8486 101.265 62.9175 99.2732C64.8954 97.3685 69.7138 91.5044 72.337 90.9215C75.6362 90.1884 80.8997 96.2447 83.2439 97.6715C84.9043 98.6822 86.9253 99.9419 88.3159 101.333C89.258 102.275 91.5123 103.149 91.9007 103.926" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -51,7 +51,7 @@ const mouths = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-5" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_365)">
       <path d="M43.2064 98.4342C53.987 98.4342 64.6397 97.7478 75.4692 97.7478C85.6277 97.7478 95.5128 98.4342 105.673 98.4342" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -70,7 +70,7 @@ const mouths = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-6" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_323)">
       <path d="M56.1368 107.055C56.1368 103.078 57.3807 91.1355 61.3149 88.8874C64.399 87.125 65.4433 84.2963 69.7402 84.1482C74.6937 83.9773 79.5679 83.3583 84.5723 83.3583C87.4132 83.3583 88.4021 85.3277 90.4964 86.9566C91.4261 87.6797 94.0508 92.6829 94.0508 93.2317C94.0508 99.0625 98.0002 104.085 98.0002 109.424" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -84,7 +84,7 @@ const mouths = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-7" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_329)">
       <path d="M48.5905 96.7862C50.525 98.9625 50.9328 102.639 53.1542 104.86C55.6661 107.372 59.3952 107.055 62.8082 107.055C66.1125 107.055 70.2351 107.084 72.1112 103.895C74.3353 100.114 74.0106 98.4938 76.6749 103.061C78.6343 106.42 78.9937 107.055 82.9501 107.055C85.5481 107.055 90.627 108.13 92.3847 105.87C97.1486 99.7447 100.722 96.7993 100.722 88.8874" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -97,7 +97,7 @@ const mouths = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-8" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_335)">
       <path d="M43.5232 100.466C43.5232 97.8259 42.9087 94.449 44.3966 92.1534C45.7635 90.0444 47.7157 89.2574 50.2835 89.7598C52.6979 90.2322 55.4805 93.4164 56.3321 95.6467C56.8163 96.9148 57.4657 98.1221 58.0141 99.3665C58.4299 100.31 59.216 102.092 59.971 102.763C63.5549 105.948 65.0446 97.7525 65.6476 95.9864C66.411 93.7508 66.7145 91.0943 68.1221 89.1452C70.1278 86.3681 77.8084 91.5178 79.0387 92.6062C81.0599 94.3942 81.8462 97.8586 82.6615 100.304C83.1215 101.685 83.5654 103.719 85.2814 103.668C88.1425 103.584 89.7229 98.1465 90.8126 96.1966C92.4963 93.1836 93.1646 90.2014 94.1927 86.9457C95.6893 82.2064 101.057 84.5592 103.379 87.2854C106.371 90.7983 108.73 94.9304 110.188 99.3018" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -110,7 +110,7 @@ const mouths = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-9" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_341)">
       <path d="M74.6654 87.9419C66.3946 87.9419 58.2623 94.6923 62.5152 103.198C65.6407 109.449 76.8095 108.413 82.4306 106.807C84.5704 106.195 84.0812 99.7703 84.9429 98.2193C86.2438 95.8777 85.3155 92.0221 83.2985 90.4085C81.1678 88.7039 71.5738 84.2589 69.7323 87.9419" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -124,7 +124,7 @@ const mouths = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-10" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_347)">
       <path d="M39.5358 91.8398C39.7379 89.6159 44.305 88.3065 46.038 87.6133C50.1775 85.9575 54.5046 85.0124 58.9703 85.0124C62.6023 85.0124 66.1574 85.3126 69.4462 87.0353C69.9456 87.2969 70.7248 87.9924 71.0717 88.4261C71.4879 88.9463 72.3361 87.0478 72.5347 86.8186C74.9282 84.0569 80.449 83.4115 83.7511 82.8992C88.7148 82.1289 94.5162 81.9906 99.2843 83.8564C101.225 84.6158 103.411 86.1406 104.883 87.6133C105.533 88.2626 106.167 88.9334 106.834 89.564C106.975 89.6974 107.906 90.2142 107.484 90.2142" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
@@ -144,7 +144,7 @@ const mouths = [
   </svg>,
 
 
-  <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg key="mouth-11" width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="150" height="150" fill="none" />
     <g clipPath="url(#clip0_4_353)">
       <path d="M59.6489 100.836C59.6489 98.5718 64.1244 96.686 65.8908 95.929C68.0948 94.9844 70.2278 95.0829 72.5839 95.0829C74.974 95.0829 77.743 94.7246 79.8034 96.0982C82.1816 97.6836 84.3923 99.1829 86.3837 101.174" stroke="#3c3c3c" strokeWidth="7" strokeLinecap="round" />
