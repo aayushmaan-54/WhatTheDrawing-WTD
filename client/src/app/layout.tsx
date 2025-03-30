@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Gochi_Hand, Londrina_Shadow } from "next/font/google";
 import cn from "@/utils/cn";
 import "./globals.css";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 
 const londrina_shadow = Londrina_Shadow({
@@ -64,10 +66,14 @@ export default function RootLayout({
         className={cn(
           londrina_shadow.variable, gochi_hand.variable,
           gochi_hand.className,
-          "antialiased bg-[url(/paper-textrue.png)]"
+          "antialiased min-h-screen bg-[url(/paper-textrue.png)] flex flex-col items-center text-primary"
         )}
       >
-        {children}
+        <Header />
+          <main className="flex-grow w-full flex flex-col items-center">
+            {children}
+          </main>
+        <Footer />
       </body>
     </html>
   );
