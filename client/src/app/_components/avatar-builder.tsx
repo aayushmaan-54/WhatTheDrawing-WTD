@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Icon from "@/assets/icons";
 import eyes from "../_avatar-data/eyes";
 import mouths from "../_avatar-data/mouths";
@@ -10,9 +10,17 @@ export default function AvatarBuilder() {
   const eyeLength = eyes.length;
   const mouthLength = mouths.length;
 
-  const [avatarColor, setAvatarColor] = useState(getRandomColor());
-  const [eyeIndex, setEyeIndex] = useState(getRandomNumber(0, eyeLength - 1));
-  const [mouthIndex, setMouthIndex] = useState(getRandomNumber(0, mouthLength - 1));
+  const [avatarColor, setAvatarColor] = useState("#29FFB8");
+  const [eyeIndex, setEyeIndex] = useState(0);
+  const [mouthIndex, setMouthIndex] = useState(0);
+
+
+  useEffect(() => {
+    setEyeIndex(getRandomNumber(0, eyeLength - 1));
+    setMouthIndex(getRandomNumber(0, mouthLength - 1));
+    setAvatarColor(getRandomColor());
+  }, [eyeLength, mouthLength]);
+
 
   const handleRandomUserAvatar = () => {
     setEyeIndex(getRandomNumber(0, eyeLength - 1));

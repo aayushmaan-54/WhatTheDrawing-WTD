@@ -6,7 +6,9 @@
   "scripts": {
     "client": "cd client && npm run dev",
     "server": "cd server && npm run dev",
-    "start": "concurrently \"npm run client\" \"npm run server\""
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "i-client": "cd client && npm install",
+    "i-server": "cd server && npm install"
   },
   "keywords": [],
   "author": "",
